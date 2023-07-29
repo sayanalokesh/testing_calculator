@@ -9,7 +9,7 @@ def run_pytest():
     # Check if all test cases passed
     if "failed" not in test_output.lower():
         # Save test results to a CSV file
-        with open('result.csv', 'w', newline='') as csvfile:
+        with open('test_results.csv', 'w', newline='') as csvfile:
             writer = csv.writer(csvfile)
             writer.writerow(['Test Case', 'Status'])
             test_cases = test_output.strip().split('\n')
