@@ -17,11 +17,11 @@ def run_pytest():
                 test_name = test_case.strip()
                 writer.writerow([test_name, 'Passed'])
 
-        # Merge the test branch to the deployment branch
-        subprocess.run(['git', 'checkout', 'deployment'])
+        # Merge the test branch to the main branch
+        subprocess.run(['git', 'checkout', 'main'])
         subprocess.run(['git', 'merge', 'test'])
-        subprocess.run(['git', 'push', 'origin', 'deployment'])
-        print("All test cases passed. Test branch merged to deployment branch.")
+        subprocess.run(['git', 'push', 'origin', 'main'])
+        print("All test cases passed. Test branch merged to main branch.")
     else:
         print("Some test cases failed. Skipping merge.")
 

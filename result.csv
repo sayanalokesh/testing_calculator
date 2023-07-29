@@ -1,5 +1,10 @@
-id,module,name,file,doc,markers,status,message,duration
-test_calc_session_assignment.py::test_add_negative_numbers,test_calc_session_assignment,test_add_negative_numbers,test_calc_session_assignment.py,,,passed,,0.00019379999866941944
-test_calc_session_assignment.py::test_add_positive_numbers,test_calc_session_assignment,test_add_positive_numbers,test_calc_session_assignment.py,,,passed,,0.00023009999858913943
-test_calc_session_assignment.py::test_add_zero,test_calc_session_assignment,test_add_zero,test_calc_session_assignment.py,,,passed,,0.00017550000484334305
-test_calc_session_assignment.py::test_divide_by_numbers,test_calc_session_assignment,test_divide_by_numbers,test_calc_session_assignment.py,,,passed,,0.00015700000221841037
+Test Case,Status
+============================= test session starts =============================,Passed
+"platform win32 -- Python 3.11.4, pytest-7.4.0, pluggy-1.2.0",Passed
+rootdir: C:\Users\Lokesh\OneDrive\Desktop\Hero Vired\Devops\Testing\testing_calculator,Passed
+plugins: csv-3.0.0,Passed
+collected 4 items,Passed
+,Passed
+test_calc_session_assignment.py ....                                     [100%],Passed
+,Passed
+============================== 4 passed in 0.02s ==============================,Passed
